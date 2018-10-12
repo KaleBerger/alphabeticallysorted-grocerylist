@@ -1,10 +1,10 @@
 #######################################
 #Kale Berger
 #Start date: October 12, 2018
-#End Date:
+#End Date: October 12, 2018
 #Sorting Summative
 #######################################
-
+# I chose bubble sorting because it it one of the easier/shorter sorting methods to use
 def bubbleSort(GroceryList): #funtion to sort the list alphabetically
     for passnum in range(len(GroceryList)-1,0,-1):
         for i in range (passnum):
